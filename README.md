@@ -19,4 +19,4 @@ You need to add the vicset1 and vicset2 scripts to vos's .cshrc folder so all th
 docker run -td -w /mnt/vicar -u vos --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" -v *local-filesystem-folder*:/mnt/vicar <container id> "/bin/bash"
   
 
-
+Then run `docker exec -it *container-id* /bin/bash` or `/bin/csh`
